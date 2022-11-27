@@ -1,0 +1,23 @@
+{
+    "name": "RatRig V-core 3 500",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "quality_definition": "RatRig_500",
+        "visible": true,
+		"author": "LiviuAdrianM",
+		"manufacturer": "LiviuAdrianM",
+        "platform": "RatRigVcore3.stl"
+		"has_materials": true,
+		"has_machine_quality": true,
+    },
+    "overrides": {
+        "machine_name": { "default_value": "RatRig V-core 3 500" },
+        "machine_width": { "default_value": 500 },
+        "machine_depth": { "default_value": 500 },
+        "machine_height": { "default_value": 500 },
+                },
+        "gantry_height": { "value": 50 },
+        "retraction_amount": { "value": 5 },
+        "machine_acceleration": { "value": 150 }
+    }
